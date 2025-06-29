@@ -1,0 +1,49 @@
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.app-container {
+  width: calc(100% - 4rem);
+  height: calc(100% - 4rem);
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.textarea {
+  width: 90%;
+  height: 90%;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  border: 1.5px solid #d1d5db;
+  border-radius: 0.8rem;
+  box-shadow: 0 2px 8px rgba(100,108,255,0.04);
+  resize: vertical;
+  outline: none;
+  transition: border 0.2s, box-shadow 0.2s;
+  margin-bottom: 2rem;
+  background: #f9fafb;
+}
+.textarea:focus {
+  border-color: #646cff;
+  box-shadow: 0 0 0 2px #646cff33;
+  background: #fff;
+}
+
+.stats {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.1rem;
+  color: #333;
+  margin-top: 0.5rem;
+  background: #f3f4f6;
+  padding: 0.7rem 1.2rem;
+  border-radius: 0.7rem;
+  box-shadow: 0 1px 4px rgba(100,108,255,0.03);
+}

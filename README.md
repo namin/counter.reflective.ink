@@ -1,6 +1,6 @@
 # [counter.reflective.ink](https://counter.reflective.ink)
 
-Simple reactive word counter app.
+minimal word count app
 
 # React + TypeScript + Vite
 
